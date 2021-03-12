@@ -125,8 +125,6 @@ export default function SignUp({ onSignIn }) {
             color="primary"
             className={classes.submit}
             onClick={onSignIn}
-            component={Link}
-            to="/"
           >
             Sign Up
           </Button>

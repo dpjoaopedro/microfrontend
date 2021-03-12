@@ -100,8 +100,6 @@ export default function SignIn({ onSignIn }) {
             color="primary"
             className={classes.submit}
             onClick={onSignIn}
-            component={Link}
-            to="/"
           >
             Sign In
           </Button>
